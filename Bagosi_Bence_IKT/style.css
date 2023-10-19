@@ -8,18 +8,10 @@ h1{
   font-size:300%;
 }
 main{
-  background-color:brown;
-  color:white;
-  text-indent:2px;
-  text-align:justify;
-}
-h1{
-  text-align:center;
-  text-transform:uppercase;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:300%;
-}
-main{
+  width:80%;
+  margin-top:0;
+  margin:0px auto;
+  margin-left:15%;
   background-color:brown;
   color:white;
   text-indent:2px;
@@ -28,7 +20,7 @@ main{
 .sidebar {
   margin:0;
   padding:0;
-  width:200px;
+  width:8.3%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -67,4 +59,8 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+footer{
+  width:60%;
+  margin:20px auto;
 }
