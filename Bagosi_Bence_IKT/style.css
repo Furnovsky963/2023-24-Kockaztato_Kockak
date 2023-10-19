@@ -2,10 +2,69 @@ body{
   background-color:wheat;
 }
 h1{
-  text-transform:capitalize;
+  text-align:center;
+  text-transform:uppercase;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:300%;
 }
 main{
   background-color:brown;
   color:white;
-  text-indent:2 px;
+  text-indent:2px;
+  text-align:justify;
+}
+h1{
+  text-align:center;
+  text-transform:uppercase;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:300%;
+}
+main{
+  background-color:brown;
+  color:white;
+  text-indent:2px;
+  text-align:justify;
+}
+.sidebar {
+  margin:0;
+  padding:0;
+  width:200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow:hidden;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
