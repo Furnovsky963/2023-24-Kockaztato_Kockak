@@ -13,6 +13,8 @@ main{
   margin:0px auto;
   margin-left:15%;
   background-color:brown;
+}
+p{
   color:white;
   text-indent:2px;
   text-align:justify;
