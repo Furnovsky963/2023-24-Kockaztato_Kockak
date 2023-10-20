@@ -1,5 +1,5 @@
 body{
-  background-color:wheat;
+  background-image:url(../img/csivava.jpg);
 }
 h1{
   text-align:center;
@@ -20,6 +20,7 @@ p{
   text-align:justify;
   margin-left:10px;
   margin-right:10px;
+  font-size:125%;
 }
 ul,ol{
   font-style:italic;
